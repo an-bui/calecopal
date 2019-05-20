@@ -57,21 +57,31 @@ wes_palettes <- list(
 #' # colours
 #' pal <- wes_palette(21, name = "Zissou1", type = "continuous")
 #' image(volcano, col = pal)
+#'
+
+# name a wes_palette function, where there are 3 argument names: name, n, and type
 wes_palette <- function(name, n, type = c("discrete", "continuous")) {
+
+  # designate type as matching either argument in c("discrete", "continuous")
   type <- match.arg(type)
 
+  # pal is palette function subsetting by name
   pal <- wes_palettes[[name]]
+  # if input doesn't equal any names in pal, give error message
   if (is.null(pal))
     stop("Palette not found.")
 
+  # no stop statement to this if?
   if (missing(n)) {
     n <- length(pal)
   }
 
+  # if the type is discrete and n is greater than the length of the pallete, give error message
   if (type == "discrete" && n > length(pal)) {
     stop("Number of requested colors greater than what palette can offer")
   }
 
+  # select one of a list of alternatives - idk what this does
   out <- switch(type,
                 continuous = grDevices::colorRampPalette(pal)(n),
                 discrete = pal[1:n]
@@ -82,6 +92,8 @@ wes_palette <- function(name, n, type = c("discrete", "continuous")) {
 #' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
+
+# print.palette is a function that will list all palettes in the package
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
