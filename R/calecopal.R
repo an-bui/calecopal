@@ -1,6 +1,6 @@
-#' @title wesanderson
-#' @name wesanderson
+#' @title calecopal
+#' @name calecopal
 #' @docType package
-#' @details list of palettes from Wes Anderson movies
-#' @description list of palettes from Wes Anderson movies
+#' @details list of palettes inspired by California ecosystems
+#' @description list of palettes inspired by California ecosystems
 NULL

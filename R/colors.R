@@ -3,31 +3,19 @@
 #' Use \code{\link{wes_palette}} to construct palettes of desired length.
 #'
 #' @export
-wes_palettes <- list(
-  BottleRocket1 = c("#A42820", "#5F5647", "#9B110E", "#3F5151", "#4E2A1E", "#550307", "#0C1707"),
-  BottleRocket2 = c("#FAD510", "#CB2314", "#273046", "#354823", "#1E1E1E"),
-  Rushmore1 = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
-  Rushmore = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
-  Royal1 = c("#899DA4", "#C93312", "#FAEFD1", "#DC863B"),
-  Royal2 = c("#9A8822", "#F5CDB4", "#F8AFA8", "#FDDDA0", "#74A089"),
-  Zissou1 = c("#3B9AB2", "#78B7C5", "#EBCC2A", "#E1AF00", "#F21A00"),
-  Darjeeling1 = c("#FF0000", "#00A08A", "#F2AD00", "#F98400", "#5BBCD6"),
-  Darjeeling2 = c("#ECCBAE", "#046C9A", "#D69C4E", "#ABDDDE", "#000000"),
-  Chevalier1 = c("#446455", "#FDD262", "#D3DDDC", "#C7B19C"),
-  FantasticFox1 = c("#DD8D29", "#E2D200", "#46ACC8", "#E58601", "#B40F20"),
-  Moonrise1 = c("#F3DF6C", "#CEAB07", "#D5D5D3", "#24281A"),
-  Moonrise2 = c("#798E87", "#C27D38", "#CCC591", "#29211F"),
-  Moonrise3 = c("#85D4E3", "#F4B5BD", "#9C964A", "#CDC08C", "#FAD77B"),
-  Cavalcanti1 = c("#D8B70A", "#02401B", "#A2A475", "#81A88D", "#972D15"),
-  GrandBudapest1 = c("#F1BB7B", "#FD6467", "#5B1A18", "#D67236"),
-  GrandBudapest2 = c("#E6A0C4", "#C6CDF7", "#D8A499", "#7294D4"),
-  IsleofDogs1 = c("#9986A5", "#79402E", "#CCBA72", "#0F0D0E", "#D9D0D3", "#8D8680"),
-  IsleofDogs2 = c("#EAD3BF", "#AA9486", "#B6854D", "#39312F", "#1C1718")
+cal_palettes <- list(
+  name_1 = c("#A42820", "#5F5647", "#9B110E", "#3F5151", "#4E2A1E", "#550307", "#0C1707"),
+  name_2 = c("#FAD510", "#CB2314", "#273046", "#354823", "#1E1E1E"),
+  name_3 = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
+  name_4 = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
+  name_5 = c("#899DA4", "#C93312", "#FAEFD1", "#DC863B"),
+  name_6 = c("#9A8822", "#F5CDB4", "#F8AFA8", "#FDDDA0", "#74A089"),
+  name_7 = c("#3B9AB2", "#78B7C5", "#EBCC2A", "#E1AF00", "#F21A00")
 )
 
-#' A Wes Anderson palette generator
+#' A California ecosystem color palette generator
 #'
-#' These are a handful of color palettes from Wes Anderson movies.
+#' These are a handful of color palettes inspired by California ecosystems.
 #'
 #' @param n Number of colors desired. Unfortunately most palettes now only
 #'   have 4 or 5 colors. But hopefully we'll add more palettes soon. All color
@@ -35,11 +23,8 @@ wes_palettes <- list(
 #'   \href{http://wesandersonpalettes.tumblr.com/}{Wes Anderson Palettes}.
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{BottleRocket1}, \code{BottleRocket2},  \code{Rushmore1},
-#'   \code{Royal1}, \code{Royal2},  \code{Zissou1}, \code{Darjeeling1},
-#'   \code{Darjeeling2},  \code{Chevalier1} , \code{FantasticFox1} ,
-#'   \code{Moonrise1}, \code{Moonrise2}, \code{Moonrise3}, \code{Cavalcanti1},
-#'   \code{GrandBudapest1}, \code{GrandBudapest2}, \code{IsleofDogs1}, \code{IsleofDogs2}
+#'   \code{name_1}, \code{name_2},  \code{name_3},
+#'   \code{name_4}, \code{name_5},  \code{name_6}, \code{name_7}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
@@ -47,26 +32,26 @@ wes_palettes <- list(
 #' @export
 #' @keywords colors
 #' @examples
-#' wes_palette("Royal1")
-#' wes_palette("GrandBudapest1")
-#' wes_palette("Cavalcanti1")
-#' wes_palette("Cavalcanti1", 3)
+#' cal_palette("name_1")
+#' cal_palette("name_2")
+#' cal_palette("name_3")
+#' cal_palette("name_4", 3)
 #'
 #' # If you need more colours than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
 #' # colours
-#' pal <- wes_palette(21, name = "Zissou1", type = "continuous")
+#' pal <- cal_palette(21, name = "name_1", type = "continuous")
 #' image(volcano, col = pal)
 #'
 
 # name a wes_palette function, where there are 3 argument names: name, n, and type
-wes_palette <- function(name, n, type = c("discrete", "continuous")) {
+cal_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   # designate type as matching either argument in c("discrete", "continuous")
   type <- match.arg(type)
 
   # pal is palette function subsetting by name
-  pal <- wes_palettes[[name]]
+  pal <- cal_palettes[[name]]
   # if input doesn't equal any names in pal, give error message
   if (is.null(pal))
     stop("Palette not found.")
