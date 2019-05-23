@@ -30,7 +30,7 @@ ggplot(chickwts, aes(x = feed, y = weight, fill = feed)) +
   scale_fill_manual(values = chaparral1) +
   theme_bw()
 
-chaparral2 <- c("#9A9B5F", "#D9E4DC", "#D98A63", "#A7C2CD", "#C5D2D2")
+chaparral2 <- c("#D9E4DC", "#A7C2CD", "#DEE6AD", "#D98A63", "#9A9B5F")
 
 ggplot(chickwts_s, aes(x = feed, y = av, fill = feed)) +
   geom_col() +
