@@ -37,8 +37,7 @@ cal_palettes <- list(
 #'   \href{http://wesandersonpalettes.tumblr.com/}{Wes Anderson Palettes}.
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{sierra1}, \code{sierra2},  \code{chaparral1},
-#'   \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}
+#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
