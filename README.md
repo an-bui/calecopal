@@ -26,8 +26,16 @@ More coming soon!
 
 #### Superbloom
 
-
+![ ](https://github.com/an-bui/calecopal/blob/master/figures/superbloom_pal.png)
 
 #### Big Sur
 
 ![ ](https://github.com/an-bui/calecopal/blob/master/figures/bigsur_pal.png)
+
+### Building palettes
+
+You can use the `cal_palette()` function to create your own palettes to fit your needs. For example:
+
+```
+cal_palette(name = "desert", n = 15, type = "continuous")
+```
