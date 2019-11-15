@@ -8,23 +8,23 @@ cal_palettes <- list(
   sierra2 = c("#FDD989", "#8BAD57", "#516238", "#4CA2B0", "#5A8B92", "#395B5F"),
   chaparral1 = c("#DCC27A", "#B0B9BE", "#63605F", "#985E5C", "#AEBFA8", "#F19B34"),
   chaparral2 = c("#D98A63", "#D9E4DC", "#C5D2D2", "#79B38F", "#9A9B5F", "#A7C2CD"),
-  chaparral3 = c("#D3E3CA", "#BED6B3", "#92A587", "#2F3525", "#4A5438"),
+  chaparral3 = c("#D3E3CA", "#BED6B3", "#92A587", "#4A5438", "#2F3525"),
   conifer = c("#CC7540", "#765043", "#A69260", "#979A6B", "#9A9657"),
   desert = c("#F6EECF", "#ECD6AB", "#B09175", "#632D1F", "#291611"),
-  wetland = c("#3F320D", "#AD6F4F", "#DED4C8", "#2B3851", "#AEC96F"),
-  oak1 = c("#EFC68E", "#B58755", "#7C9867", "#4F5730","#7A5028"),
-  oak2 = c("#ACB870", "#59672A", "#D7D3DA", "#665543", "#262722"),
-  kelp1 = c("#114C54", "#009BB0", "#54662C", "#BE8333", "#FFBF00","#C70000"),
-  kelp2 = c("#6D5A18", "#3D6334", "#368000", "#026779", "#0FB2D3"),
+  wetland = c("#DED4C8", "#AD6F4F", "#AEC96F", "#2B3851", "#3F320D"),
+  oak = c("#EFC68E", "#B58755", "#7C9867", "#4F5730","#7A5028"),
+  kelp1 = c("#C70000", "#FFBF00", "#BE8333", "#54662C", "#009BB0", "#114C54"),
+  kelp2 = c("#0FB2D3", "#026779", "#368000", "#3D6334", "#6D5A18"),
   coastaldune1 = c("#DCC8BA", "#DCD6C5", "#B4AA98", "#D7DCE4", "#444239"),
-  coastaldune2 = c("#E2D78A", "#E4B3E2", "#372E21", "#90816E", "#523833"),
-  superbloom1 = c("#ECAB99", "#F1C100", "#9484B1", "#5B6530", "#B9C7E2"),
+  coastaldune2 = c("#E2D78A", "#E4B3E2", "#90816E", "#523833", "#372E21"),
+  superbloom1 = c("#B9C7E2", "#ECAB99", "#F1C100",  "#5B6530", "#9484B1"),
   superbloom2 = c("#DE7424", "#F5CA37", "#AD8D26", "#496849", "#654783"),
   superbloom3 = c("#E69512", "#D3105C", "#3B4F8E", "#3A5D3D", "#4C4976", "#6C91BD"),
   sbchannel = c("#A1CAF6", "#6592D6", "#4C6FA1", "#375377", "#1E2F46"),
-  lake = c("#3793EC", "#7AC9B7", "#CECEB9", "#2A3927", "#6CA184"),
+  lake = c("#CECEB9", "#7AC9B7", "#6CA184", "#3793EC", "#2A3927"),
   fire = c("#B77B7B", "#FEEC44", "#F66C09", "#E60505", "#2C1B21"),
-  agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063")
+  agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063"),
+  bigsur = c("#E4DECE", "#ECBD95", "#9BB1BB", "#79ACBD", "#346575", "#0B4221")
 )
 
 #' A California ecosystem color palette generator
@@ -37,7 +37,7 @@ cal_palettes <- list(
 #'   \href{http://wesandersonpalettes.tumblr.com/}{Wes Anderson Palettes}.
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}
+#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
