@@ -4,10 +4,10 @@
 #'
 #' @export
 cal_palettes <- list(
-  sierra1 = c("#BD973D", "#3B7D6E", "#5F5C29", "#262E43", "#4D5B75", "#5792CC"),
-  sierra2 = c("#4CA2B0", "#FDD989", "#516238", "#5A8B92", "#395B5F"),
+  sierra1 = c("#BD973D", "#5F5C29", "#3B7D6E", "#5792CC", "#4D5B75", "#262E43"),
+  sierra2 = c("#FDD989", "#8BAD57", "#516238", "#4CA2B0", "#5A8B92", "#395B5F"),
   chaparral1 = c("#DCC27A", "#B0B9BE", "#63605F", "#985E5C", "#AEBFA8", "#F19B34"),
-  chaparral2 = c("#9A9B5F", "#D9E4DC", "#D98A63", "#A7C2CD", "#C5D2D2"),
+  chaparral2 = c("#D98A63", "#D9E4DC", "#C5D2D2", "#79B38F", "#9A9B5F", "#A7C2CD"),
   chaparral3 = c("#D3E3CA", "#BED6B3", "#92A587", "#2F3525", "#4A5438"),
   conifer = c("#CC7540", "#765043", "#A69260", "#979A6B", "#9A9657"),
   desert = c("#F6EECF", "#ECD6AB", "#B09175", "#632D1F", "#291611"),
