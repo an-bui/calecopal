@@ -1,11 +1,10 @@
 Package: calecopal
 Type: Package
-Title: What the Package Does (Title Case)
+Title: a California-inspired package of color palettes
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: An Bui, Heili Lowman, Ana Sofia Guerra
+Maintainer: An Bui <an_bui@ucsb.edu>
+Description: Color palettes inspired by California
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
