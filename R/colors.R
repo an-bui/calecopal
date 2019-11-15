@@ -29,7 +29,7 @@ cal_palettes <- list(
 
 #' A California ecosystem color palette generator
 #'
-#' These are a handful of color palettes inspired by California ecosystems.
+#' These are a couple handfuls of color palettes inspired by California ecosystems.
 #'
 #' @param n Number of colors desired. Unfortunately most palettes now only
 #'   have 4 or 5 colors. But hopefully we'll add more palettes soon. All color
@@ -53,7 +53,7 @@ cal_palettes <- list(
 #' # If you need more colours than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
 #' # colours
-#' pal <- cal_palette(21, name = "coastaldune1", type = "continuous")
+#' pal <- cal_palette(name = "coastaldune1", n = 21, type = "continuous")
 #' image(volcano, col = pal)
 #'
 
