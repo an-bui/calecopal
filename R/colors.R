@@ -1,6 +1,6 @@
 #' Complete list of palettes
 #'
-#' Use \code{\link{wes_palette}} to construct palettes of desired length.
+#' Use \code{\link{cal_palette}} to construct palettes of desired length.
 #'
 #' @export
 cal_palettes <- list(
@@ -21,7 +21,7 @@ cal_palettes <- list(
   superbloom1 = c("#ECAB99", "#F1C100", "#9484B1", "#5B6530", "#B9C7E2"),
   superbloom2 = c("#DE7424", "#F5CA37", "#AD8D26", "#496849", "#654783"),
   superbloom3 = c("#E69512", "#D3105C", "#3B4F8E", "#3A5D3D", "#4C4976", "#6C91BD"),
-  sbchannel = c("#A1CAF6", "#6592D6", "#1E2F46", "#375377", "#4C6FA1"),
+  sbchannel = c("#A1CAF6", "#6592D6", "#4C6FA1", "#375377", "#1E2F46"),
   lake = c("#3793EC", "#7AC9B7", "#CECEB9", "#2A3927", "#6CA184"),
   fire = c("#B77B7B", "#FEEC44", "#F66C09", "#E60505", "#2C1B21"),
   agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063")
