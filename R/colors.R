@@ -25,7 +25,7 @@ cal_palettes <- list(
   fire = c("#B77B7B", "#FEEC44", "#F66C09", "#E60505", "#2C1B21"),
   agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063"),
   bigsur = c("#E4DECE", "#ECBD95", "#9BB1BB", "#79ACBD", "#346575", "#0B4221"),
-  figmtn = c("#E29244", "#FFAA00", "#D46F10", "#73D997", "#2F9142", "#69B9FA", "#4B8FF7", "#6B6D9F")
+  figmtn = c("#E29244", "#FFAA00", "#D46F10", "#4CA49E", "#69B9FA", "#59A3F8", "#4B8FF7", "#5A7ECB", "#6B6D9F")
 )
 
 #' A California ecosystem color palette generator
