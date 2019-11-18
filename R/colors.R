@@ -66,17 +66,17 @@ cal_palette <- function(name, n, type = c("discrete", "continuous")) {
   if (is.null(pal))
     stop("Palette not found.")
 
-  # no stop statement to this if?
+
   if (missing(n)) {
     n <- length(pal)
   }
 
-  # if the type is discrete and n is greater than the length of the pallete, give error message
+  # if the type is discrete and n is greater than the length of the palette, give error message
   if (type == "discrete" && n > length(pal)) {
     stop("Number of requested colors greater than what palette can offer")
   }
 
-  # select one of a list of alternatives - idk what this does
+
   out <- switch(type,
                 continuous = grDevices::colorRampPalette(pal)(n),
                 discrete = pal[1:n]
