@@ -9,7 +9,7 @@ cal_palettes <- list(
   chaparral1 = c("#DCC27A", "#B0B9BE", "#63605F", "#985E5C", "#AEBFA8", "#F19B34"),
   chaparral2 = c("#D98A63", "#D9E4DC", "#C5D2D2", "#79B38F", "#9A9B5F", "#A7C2CD"),
   chaparral3 = c("#D3E3CA", "#BED6B3", "#92A587", "#4A5438", "#2F3525"),
-  conifer = c("#CC7540", "#765043", "#A69260", "#979A6B", "#9A9657"),
+  conifer = c("#CC7540", "#765043", "#A69260", "#979A6B", "#39692F"),
   desert = c("#F6EECF", "#ECD6AB", "#B09175", "#632D1F", "#291611"),
   wetland = c("#DED4C8", "#AD6F4F", "#AEC96F", "#2B3851", "#3F320D"),
   oak = c("#EFC68E", "#B58755", "#7C9867", "#4F5730","#7A5028"),
@@ -24,20 +24,17 @@ cal_palettes <- list(
   lake = c("#CECEB9", "#7AC9B7", "#6CA184", "#3793EC", "#2A3927"),
   fire = c("#B77B7B", "#FEEC44", "#F66C09", "#E60505", "#2C1B21"),
   agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063"),
-  bigsur = c("#E4DECE", "#ECBD95", "#9BB1BB", "#79ACBD", "#346575", "#0B4221")
+  bigsur = c("#E4DECE", "#ECBD95", "#9BB1BB", "#79ACBD", "#346575", "#0B4221"),
+  figmtn = c("#E29244", "#D46F10", "#D83504", "#69B9FA", "#4B8FF7", "#6B6D9F")
 )
 
 #' A California ecosystem color palette generator
 #'
 #' These are a couple handfuls of color palettes inspired by California ecosystems.
 #'
-#' @param n Number of colors desired. Unfortunately most palettes now only
-#'   have 4 or 5 colors. But hopefully we'll add more palettes soon. All color
-#'   schemes are derived from the most excellent Tumblr blog:
-#'   \href{http://wesandersonpalettes.tumblr.com/}{Wes Anderson Palettes}.
-#'   If omitted, uses all colours.
+#' @param n Number of colors desired. If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}
+#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}, \code{figmtn}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
