@@ -1,9 +1,15 @@
 #' Complete list of palettes
+#'  "sierra1"      "sierra2"      "chaparral1"   "chaparral2"   "chaparral3"
+#'  "conifer"      "desert"       "wetland"      "oak"          "kelp1"
+#'  "kelp2"        "coastaldune1" "coastaldune2" "superbloom1"  "superbloom2"
+#'  "superbloom3"  "sbchannel"   "lake"        "fire"          "agriculture"
+#'  "bigsur"       "figmtn"
 #'
 #' Use \code{\link{cal_palette}} to construct palettes of desired length.
 #'
 #' @export
 cal_palettes <- list(
+  ### release 1: June 2020
   sierra1 = c("#BD973D", "#5F5C29", "#3B7D6E", "#5792CC", "#4D5B75", "#262E43"),
   sierra2 = c("#FDD989", "#8BAD57", "#516238", "#4CA2B0", "#5A8B92", "#395B5F"),
   chaparral1 = c("#DCC27A", "#B0B9BE", "#63605F", "#985E5C", "#AEBFA8", "#F19B34"),
@@ -25,7 +31,32 @@ cal_palettes <- list(
   fire = c("#B77B7B", "#FEEC44", "#F66C09", "#E60505", "#2C1B21"),
   agriculture = c("#A45C44", "#5A7F3C", "#CACA91", "#2C3B26", "#88B063"),
   bigsur = c("#E4DECE", "#ECBD95", "#9BB1BB", "#79ACBD", "#346575", "#0B4221"),
-  figmtn = c("#E29244", "#FFAA00", "#D46F10", "#4CA49E", "#69B9FA", "#59A3F8", "#4B8FF7", "#5A7ECB", "#6B6D9F")
+  figmtn = c("#E29244", "#FFAA00", "#D46F10", "#4CA49E", "#69B9FA", "#59A3F8", "#4B8FF7", "#5A7ECB", "#6B6D9F"),
+
+  ### release 2: Sep 2020
+  caquail = c("#E6DECC", "#F3E3C2", "#8F96A6", "#625D55", "#501F16"),
+  capoppy = c("#F2B705", "#F29F05", "#F28705", "#D95204", "#A62F03"),
+  arbutus = c("#DFE3CE", "#B5C861", "#8AA789", "#CB8573", "#976153"), # pacific madrone
+  calochortus = c("#CAC8CF", "#C9B3B5", "#8F706E", "#AF6E78", "5C3327"), # catalinae
+  grassdry = c("#E1BC8D", "#845B3E", "#5B4E23", "#35301C", "#4C5454"),
+  grasswet = c("#4C4E32","#908E6C","#5D8FBC","#97C2E2","#17252A","#B4A480"),
+  sage = c("#607860", "#304830", "#C0D8F0", "#909078", "#181818"),
+  tidepool = c("#84A6A2","#4A5352","#151E2F","#D7C8C6","#BE5A47","#604A76"),
+  seagrass = c("#5A870A", "#BDD0A2", "#555B53", "#6A4D3B", "#BEAB91", "#8F9BAB"),
+  bigsur2 = c("#20618D", "#91AAC4", "#6B6C58", "#464724", "#83932D", "#CAB89F"),
+  bixby = c("#286A81", "#045CB4", "#7F6F43", "#748B75", "#B8B196"),
+  redwood1 = c("#303018", "#604830", "#609048", "#90A860", "#786048"),
+  redwood2 = c("#304818", "#906030", "#486030", "#784830", "#181800"),
+  halfdome = c("#A2A098", "#5E6B7B", "#233D3F", "#85ADCC", "#426714"),
+  creek = c("#EBDAC9", "#CEAD96", "#CECFD4", "#686F60", "#455D44", "#23341E"),
+  vermillion = c("#c39ca4","#e05959","#ac181d","#713d3f","#381f21"), # vermillion rockfish
+  canary = c("#FFDBA5", "#FAB455", "#F28023", "#A5683C", "#B4450E"), # canary rockfish
+  casj = c("#336887", "#8197A4", "#A9B4BC", "#B7AA9F", "#706A6B"),
+  lupinus = c("#6C568C", "#9386A6", "#BFCDD9", "#7F8C72", "#607345"),
+  dudleya = c("#7E8C69", "#E7A655", "#E59D7F", "#E38377", "#6D4847"),
+  gayophytum = c("#AA767C", "#B7AF57", "#797014", "#C2607F", "#A65644"),
+  collinsia = c("#9E8ABC", "#A99CD9", "#808C91", "#A7907B", "#A5BA92"),
+  buow = c("#DED4CB", "#DBE38E", "#7E7576", "#A79787", "#3A2C21") # burrowing owl
 )
 
 #' A California ecosystem color palette generator
@@ -34,7 +65,7 @@ cal_palettes <- list(
 #'
 #' @param n Number of colors desired. If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}, \code{figmtn}
+#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}, \code{figmtn}, \code{caquail}, \code{capoppy}, \code{arbutus}, \code{calochortus}, \code{grassdry}, \code{grasswet}, \code{sage}, \code{tidepool}, \code{seagrass}, \code{bigsur2}, \code{bixby}, \code{redwood1}, \code{redwood2}, \code{halfdome}, \code{creek}, \code{vermillion}, \code{canary}, \code{casj}, \code{lupinus}, \code{dudleya}, \code{gayophytum}, \code{collinsia}, \code{buow}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
@@ -54,7 +85,7 @@ cal_palettes <- list(
 #' image(volcano, col = pal)
 #'
 
-# name a wes_palette function, where there are 3 argument names: name, n, and type
+# name a cal_palette function, where there are 3 argument names: name, n, and type
 cal_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   # designate type as matching either argument in c("discrete", "continuous")

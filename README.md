@@ -72,3 +72,6 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     theme_bw()
 ```
 ![ ](https://github.com/an-bui/calecopal/blob/master/figures/kelp1_plot.jpeg)
+
+### As seen on
+#### Tidy Tuesday
