@@ -41,7 +41,7 @@ cal_palettes <- list(
   caqu = c("#E6DECC", "#F3E3C2", "#8F96A6", "#625D55", "#501F16"), # california quail
   eschscholzia = c("#F2B705", "#F29F05", "#F28705", "#D95204", "#A62F03"), # california poppy
   arbutus = c("#DFE3CE", "#B5C861", "#8AA789", "#CB8573", "#976153"), # pacific madrone
-  calochortus = c("#CAC8CF", "#C9B3B5", "#8F706E", "#AF6E78", "5C3327"), # catalinae
+  calochortus = c("#CAC8CF", "#C9B3B5", "#8F706E", "#AF6E78", "#5C3327"), # catalinae
   grassdry = c("#E1BC8D", "#845B3E", "#5B4E23", "#35301C", "#4C5454"),
   grasswet = c("#4C4E32","#908E6C","#5D8FBC","#97C2E2","#17252A","#B4A480"),
   sage = c("#607860", "#304830", "#C0D8F0", "#909078", "#181818"),
@@ -69,7 +69,17 @@ cal_palettes <- list(
 #'
 #' @param n Number of colors desired. If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2}, \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland}, \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1}, \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3}, \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur}, \code{figmtn}, \code{caquail}, \code{capoppy}, \code{arbutus}, \code{calochortus}, \code{grassdry}, \code{grasswet}, \code{sage}, \code{tidepool}, \code{seagrass}, \code{bigsur2}, \code{bixby}, \code{redwood1}, \code{redwood2}, \code{halfdome}, \code{creek}, \code{vermillion}, \code{canary}, \code{casj}, \code{lupinus}, \code{dudleya}, \code{gayophytum}, \code{collinsia}, \code{buow}
+#'   \code{sierra1}, \code{sierra2},  \code{chaparral1}, \code{chaparral2},
+#'   \code{chaparral3},  \code{conifer}, \code{desert}, \code{wetland},
+#'   \code{oak1}, \code{oak2}, \code{kelp1}, \code{kelp2}, \code{coastaldune1},
+#'   \code{coastaldune2}, \code{superbloom1}, \code{superbloom2}, \code{superbloom3},
+#'    \code{sbchannel}, \code{lake}, \code{fire}, \code{agriculture}, \code{bigsur},
+#'     \code{figmtn}, \code{caquail}, \code{capoppy}, \code{arbutus},
+#'     \code{calochortus}, \code{grassdry}, \code{grasswet}, \code{sage},
+#'     \code{tidepool}, \code{seagrass}, \code{bigsur2}, \code{bixby},
+#'     \code{redwood1}, \code{redwood2}, \code{halfdome}, \code{creek},
+#'     \code{vermillion}, \code{canary}, \code{casj}, \code{lupinus},
+#'     \code{dudleya}, \code{gayophytum}, \code{collinsia}, \code{buow}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
