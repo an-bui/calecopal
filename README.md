@@ -8,6 +8,9 @@ Code from Karthik Ram's `wesanderson` package, linked [here](https://github.com/
 devtools::install_github("an-bui/calecopal")
 ```
 
+### Updates
+**September 2020**: 23 new palettes!
+
 ### Usage
 
 ```

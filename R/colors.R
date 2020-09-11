@@ -2,8 +2,12 @@
 #'  "sierra1"      "sierra2"      "chaparral1"   "chaparral2"   "chaparral3"
 #'  "conifer"      "desert"       "wetland"      "oak"          "kelp1"
 #'  "kelp2"        "coastaldune1" "coastaldune2" "superbloom1"  "superbloom2"
-#'  "superbloom3"  "sbchannel"   "lake"        "fire"          "agriculture"
-#'  "bigsur"       "figmtn"
+#'  "superbloom3"  "sbchannel"    "lake"         "fire"         "agriculture"
+#'  "bigsur"       "figmtn"       "caqu"         "ceschscholzia""arbutus"
+#'  "calochortus"  "grassdry"     "grasswet"     "sage"         "tidepool"
+#'  "seagrass"     "bigsur2"      "bixby"        "redwood1"     "redwood2"
+#'  "halfdome"     "creek"        "vermillion"   "canary"       "casj"
+#'  "lupinus"      "dudleya"      "gayophytum"   "collinsia"    "buow"
 #'
 #' Use \code{\link{cal_palette}} to construct palettes of desired length.
 #'
@@ -34,8 +38,8 @@ cal_palettes <- list(
   figmtn = c("#E29244", "#FFAA00", "#D46F10", "#4CA49E", "#69B9FA", "#59A3F8", "#4B8FF7", "#5A7ECB", "#6B6D9F"),
 
   ### release 2: Sep 2020
-  caquail = c("#E6DECC", "#F3E3C2", "#8F96A6", "#625D55", "#501F16"),
-  capoppy = c("#F2B705", "#F29F05", "#F28705", "#D95204", "#A62F03"),
+  caqu = c("#E6DECC", "#F3E3C2", "#8F96A6", "#625D55", "#501F16"), # california quail
+  eschscholzia = c("#F2B705", "#F29F05", "#F28705", "#D95204", "#A62F03"), # california poppy
   arbutus = c("#DFE3CE", "#B5C861", "#8AA789", "#CB8573", "#976153"), # pacific madrone
   calochortus = c("#CAC8CF", "#C9B3B5", "#8F706E", "#AF6E78", "5C3327"), # catalinae
   grassdry = c("#E1BC8D", "#845B3E", "#5B4E23", "#35301C", "#4C5454"),
