@@ -11,6 +11,15 @@ devtools::install_github("an-bui/calecopal")
 ### Updates
 **September 2020**: 23 new palettes!
 
+#### Redwoods
+
+![ ](https://github.com/an-bui/calecopal/blob/master/figures/redwood_pic.png)
+
+#### Organisms!
+
+##### Calochortus catalinae
+![ ](https://github.com/an-bui/calecopal/blob/master/figures/calochortus_pic.png)
+
 ### Usage
 
 ```
