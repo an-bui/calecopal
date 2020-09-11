@@ -10,6 +10,7 @@ devtools::install_github("an-bui/calecopal")
 
 ### Updates
 **September 2020**: 23 new palettes!
+![ ](https://github.com/an-bui/calecopal/blob/master/figures/all-palettes-2020-09.png)
 
 #### Redwoods
 
