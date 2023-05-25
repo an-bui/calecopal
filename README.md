@@ -76,7 +76,9 @@ ggplot(chickwts %>%
     scale_fill_manual(values = cal_palette("sierra1")) +
     theme_bw()
 ```
-![ ](/figures/sierra1_example.jpeg)
+<p align="center">
+  <img width="460" height="300" src="/figures/sierra1_example.jpeg">
+</p>
 ```
 ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     geom_jitter(aes(color = feed), alpha = 0.8, width = 0.3, size = 2) +
