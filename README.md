@@ -21,7 +21,7 @@ devtools::install_github("an-bui/calecopal")
 #### Calochortus catalinae
 
 <p align="center">
-  <img src="/figures/calochortus_pic.png" height="50%">
+  <img src="/figures/calochortus_pic.png" height="60%" width="60%">
 </p>
 
 ## Usage
@@ -57,7 +57,7 @@ cal_palette(name = "desert", n = 15, type = "continuous")
 ```
 
 <p align="center">
-  <img src="/figures/desert_pal.jpeg" height="40%">
+  <img src="/figures/desert_pal.jpeg" height="60%" width="60%">
 </p>
 
 ```
@@ -65,7 +65,7 @@ cal_palette("sierra1", n = 50, type = "continuous")
 ```
 
 <p align="center">
-  <img src="/figures/sierra1_pal.jpeg" height="40%">
+  <img src="/figures/sierra1_pal.jpeg" height="60%" width="60%">
 </p>
 
 ## Example plots
@@ -85,7 +85,7 @@ ggplot(chickwts %>%
 ```
 
 <p align="center">
-  <img src="/figures/sierra1_example.jpeg">
+  <img src="/figures/sierra1_example.jpeg" height="60%" width="60%">
 </p>
 
 ```
@@ -97,7 +97,7 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 ```
 
 <p align="center">
-  <img src="/figures/kelp1_plot.jpeg">
+  <img src="/figures/kelp1_plot.jpeg" height="60%" width="60%">
 </p>
 
 ## As seen in
@@ -107,7 +107,7 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects on Fire Ignition Risk and Spread in Sagebrush Steppe." [https://doi.org/10.1016/j.rama.2022.08.004](https://doi.org/10.1016/j.rama.2022.08.004).
 
 <p align="center">
-  <img src="/figures/orr-rem.jpg", height = "10%">
+  <img src="/figures/orr-rem.jpg" height="70%" width="70%">
 </p>
 
 ### `superbloom3`: Miles et al. Ecosphere 2022.
@@ -115,7 +115,7 @@ Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects o
 Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
 
 <p align="center">
-  <img src="/figures/miles-ecosphere.jpeg", height = "10%">
+  <img src="/figures/miles-ecosphere.jpeg" height="70%" width="70%">
 </p>
 
 ### `kelp1`: Miller-ter Kuile et al. _Ecology_ 2022. 
@@ -123,7 +123,7 @@ Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect com
 "Predator–prey interactions of terrestrial invertebrates are determined by predator body size and species identity." [https://doi.org/10.1002/ecy.3634](https://doi.org/10.1002/ecy.3634).
 
 <p align="center">
-  <img src="/figures/miller-ter-kuile-ecology.jpeg" height="50%" width="50%">
+  <img src="/figures/miller-ter-kuile-ecology.jpeg" height="70%" width="70%">
 </p>
 
 
@@ -132,7 +132,7 @@ Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect com
 Apigo and Oono. _Ecosphere_ 2022. "Plant abundance, but not plant evolutionary history, shapes patterns of host specificity in foliar fungal endophytes." [https://doi.org/10.1002/ecs2.3879](https://doi.org/10.1002/ecs2.3879).
 
 <p align="center">
-  <img src="/figures/apigo-ecosphere.jpeg", height = "10%">
+  <img src="/figures/apigo-ecosphere.jpeg" height="70%" width="70%">
 </p>
 
 
