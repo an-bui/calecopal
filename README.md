@@ -21,7 +21,7 @@ devtools::install_github("an-bui/calecopal")
 ##### Calochortus catalinae
 
 <p align="center">
-  <img src="/figures/calochortus_pic.png">
+  <img src="/figures/calochortus_pic.png" height="50%">
 </p>
 
 ### Usage
@@ -57,7 +57,7 @@ cal_palette(name = "desert", n = 15, type = "continuous")
 ```
 
 <p align="center">
-  <img src="/figures/desert_pal.jpeg">
+  <img src="/figures/desert_pal.jpeg" height="40%">
 </p>
 
 ```
@@ -65,7 +65,7 @@ cal_palette("sierra1", n = 50, type = "continuous")
 ```
 
 <p align="center">
-  <img src="/figures/sierra1_pal.jpeg">
+  <img src="/figures/sierra1_pal.jpeg" height="40%">
 </p>
 
 ### Example plots
@@ -118,7 +118,7 @@ Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect com
   <img src="/figures/miller-ter-kuile-ecology.jpeg", height = "80%">
 </p>
 
-#### 
+#### `chaparral1`: Orr et al. _Rangeland Ecology and Management_ 2022.
 
 Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects on Fire Ignition Risk and Spread in Sagebrush Steppe." [https://doi.org/10.1016/j.rama.2022.08.004](https://doi.org/10.1016/j.rama.2022.08.004).
 
