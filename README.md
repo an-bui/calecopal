@@ -53,13 +53,17 @@ You can use the `cal_palette()` function to create your own palettes to fit your
 cal_palette(name = "desert", n = 15, type = "continuous")
 ```
 
-![ ](/figures/desert_pal.jpeg)
+<p align="center">
+  <img src="/figures/desert_pal.jpeg">
+</p>
 
 ```
 cal_palette("sierra1", n = 50, type = "continuous")
 ```
 
-![](/figures/sierra1_pal.jpeg)
+<p align="center">
+  <img src="/figures/sierra1_pal.jpeg">
+</p>
 
 ### Example plots
 
@@ -76,9 +80,11 @@ ggplot(chickwts %>%
     scale_fill_manual(values = cal_palette("sierra1")) +
     theme_bw()
 ```
+
 <p align="center">
-  <img width="460" height="300" src="/figures/sierra1_example.jpeg">
+  <img src="/figures/sierra1_example.jpeg">
 </p>
+
 ```
 ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     geom_jitter(aes(color = feed), alpha = 0.8, width = 0.3, size = 2) +
@@ -86,7 +92,10 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     scale_color_manual(values = cal_palette("kelp1")) +
     theme_bw()
 ```
-![ ](/figures/kelp1_plot.jpeg)
+
+<p align="center">
+  <img src="/figures/kelp1_plot.jpeg">
+</p>
 
 ### As seen in
 
