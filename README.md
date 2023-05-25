@@ -35,11 +35,11 @@ More coming soon!
 
 #### Chaparral
 
-![ ](/chaparral_pal.png)
+![ ](/figures/chaparral_pal.png)
 
 #### Superbloom
 
-![ ](/superbloom_pal.png)
+![ ](/figures/superbloom_pal.png)
 
 #### Big Sur
 
@@ -90,4 +90,4 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 
 Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
 
-![](/figures/miles-echosphere.jpeg)
+![](/figures/miles-ecosphere.jpeg)
