@@ -10,16 +10,16 @@ devtools::install_github("an-bui/calecopal")
 
 ### Updates
 **September 2020**: 23 new palettes!
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/all-palettes-2020-09.png)
+![ ](/figures/all-palettes-2020-09.png)
 
 #### Redwoods
 
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/redwood_pic.png)
+![ ](/figures/redwood_pic.png)
 
 #### Organisms!
 
 ##### Calochortus catalinae
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/calochortus_pic.png)
+![ ](/figures/calochortus_pic.png)
 
 ### Usage
 
@@ -35,15 +35,15 @@ More coming soon!
 
 #### Chaparral
 
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/chaparral_pal.png)
+![ ](/chaparral_pal.png)
 
 #### Superbloom
 
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/superbloom_pal.png)
+![ ](/superbloom_pal.png)
 
 #### Big Sur
 
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/bigsur_pal.png)
+![ ](/figures/bigsur_pal.png)
 
 ### Building palettes
 
@@ -53,13 +53,13 @@ You can use the `cal_palette()` function to create your own palettes to fit your
 cal_palette(name = "desert", n = 15, type = "continuous")
 ```
 
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/desert_pal.jpeg)
+![ ](/figures/desert_pal.jpeg)
 
 ```
 cal_palette("sierra1", n = 50, type = "continuous")
 ```
 
-![](https://github.com/an-bui/calecopal/blob/master/figures/sierra1_pal.jpeg)
+![](/figures/sierra1_pal.jpeg)
 
 ### Example plots
 
@@ -76,7 +76,7 @@ ggplot(chickwts %>%
     scale_fill_manual(values = cal_palette("sierra1")) +
     theme_bw()
 ```
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/sierra1_example.jpeg)
+![ ](/figures/sierra1_example.jpeg)
 ```
 ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     geom_jitter(aes(color = feed), alpha = 0.8, width = 0.3, size = 2) +
@@ -84,7 +84,10 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
     scale_color_manual(values = cal_palette("kelp1")) +
     theme_bw()
 ```
-![ ](https://github.com/an-bui/calecopal/blob/master/figures/kelp1_plot.jpeg)
+![ ](/figures/kelp1_plot.jpeg)
 
-### As seen on
-#### Tidy Tuesday
+### As seen in
+
+Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
+
+![](/figures/miles-echosphere.jpeg)
