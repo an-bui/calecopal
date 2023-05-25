@@ -102,6 +102,14 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 
 ## As seen in
 
+### `chaparral1`: Orr et al. _Rangeland Ecology and Management_ 2022.
+
+Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects on Fire Ignition Risk and Spread in Sagebrush Steppe." [https://doi.org/10.1016/j.rama.2022.08.004](https://doi.org/10.1016/j.rama.2022.08.004).
+
+<p align="center">
+  <img src="/figures/orr-rem.jpg", height = "10%">
+</p>
+
 ### `superbloom3`: Miles et al. Ecosphere 2022.
 
 Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
@@ -115,16 +123,9 @@ Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect com
 "Predator–prey interactions of terrestrial invertebrates are determined by predator body size and species identity." [https://doi.org/10.1002/ecy.3634](https://doi.org/10.1002/ecy.3634).
 
 <p align="center">
-  <img src="/figures/miller-ter-kuile-ecology.jpeg", height = "10%">
+  <img src="/figures/miller-ter-kuile-ecology.jpeg" height="50%" width="50%">
 </p>
 
-### `chaparral1`: Orr et al. _Rangeland Ecology and Management_ 2022.
-
-Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects on Fire Ignition Risk and Spread in Sagebrush Steppe." [https://doi.org/10.1016/j.rama.2022.08.004](https://doi.org/10.1016/j.rama.2022.08.004).
-
-<p align="center">
-  <img src="/figures/orr-rem.jpg", height = "10%">
-</p>
 
 ### `superbloom1`: Apigo and Oono. _Ecosphere_ 2022.
 
