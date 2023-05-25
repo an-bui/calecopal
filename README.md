@@ -123,7 +123,15 @@ Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect com
 Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects on Fire Ignition Risk and Spread in Sagebrush Steppe." [https://doi.org/10.1016/j.rama.2022.08.004](https://doi.org/10.1016/j.rama.2022.08.004).
 
 <p align="center">
-  <img src="/figures/orr-2022.jpg", height = "10%">
+  <img src="/figures/orr-rem.jpg", height = "10%">
+</p>
+
+#### ``: Apigo and Oono. _Ecosphere_ 2022.
+
+Apigo and Oono. _Ecosphere_ 2022. "Plant abundance, but not plant evolutionary history, shapes patterns of host specificity in foliar fungal endophytes." [https://doi.org/10.1002/ecs2.3879](https://doi.org/10.1002/ecs2.3879).
+
+<p align="center">
+  <img src="/figures/apigo-ecosphere.jpg", height = "10%">
 </p>
 
 
