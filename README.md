@@ -19,7 +19,10 @@ devtools::install_github("an-bui/calecopal")
 #### Organisms!
 
 ##### Calochortus catalinae
-![ ](/figures/calochortus_pic.png)
+
+<p align="center">
+  <img src="/figures/calochortus_pic.png">
+</p>
 
 ### Usage
 
@@ -101,4 +104,6 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 
 Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
 
-![](/figures/miles-ecosphere.jpeg)
+<p align="center">
+  <img src="/figures/miles-ecosphere.jpeg", height = "80%">
+</p>
