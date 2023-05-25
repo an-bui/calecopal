@@ -131,7 +131,7 @@ Orr et al. _Rangeland Ecology and Management_ 2022. "Grazing Intensity Effects o
 Apigo and Oono. _Ecosphere_ 2022. "Plant abundance, but not plant evolutionary history, shapes patterns of host specificity in foliar fungal endophytes." [https://doi.org/10.1002/ecs2.3879](https://doi.org/10.1002/ecs2.3879).
 
 <p align="center">
-  <img src="/figures/apigo-ecosphere.jpg", height = "10%">
+  <img src="/figures/apigo-ecosphere.jpeg", height = "10%">
 </p>
 
 
