@@ -105,5 +105,5 @@ ggplot(chickwts, aes(x = feed, y = weight, color = feed)) +
 Miles et al. _Ecosphere_ 2022. "Effects of urbanization on specialist insect communities of milkweed are mediated by spatial and temporal variation." [https://doi.org/10.1002/ecs2.4222](https://doi.org/10.1002/ecs2.4222).
 
 <p align="center">
-  <img src="/figures/miles-ecosphere.jpeg", height = "80%">
+  <img src="/figures/miles-ecosphere.jpeg", height = "60%">
 </p>
