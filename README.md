@@ -135,4 +135,16 @@ Apigo and Oono. _Ecosphere_ 2022. "Plant abundance, but not plant evolutionary h
   <img src="/figures/apigo-ecosphere.jpeg" height="70%" width="70%">
 </p>
 
+### `desert`: Crosetto et al. 2025.
+
+Paolo Crosetto, Mark Austin Hanson, Daniel Brockington, Pablo Gómez Barreiro. Springer Nature Discovers MDPI. 2025. HAL Id: 05113253, url: [https://hal.science/hal-05113253](https://hal.science/hal-05113253).
+
+<p align="center">
+  <img src="/figures/IFI_strain.png" height="70%" width="70%">
+</p>
+
+<p align="center">
+  <img src="/figures/Equivalence_table_Applied_Sciences.png" height="70%" width="70%">
+</p>
+
 
